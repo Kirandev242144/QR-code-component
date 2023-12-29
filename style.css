@@ -19,7 +19,7 @@
      display: flex;
      flex-direction: row;
      justify-content: center;
-     width: 450px;
+     width: 380px;
      height: auto;
      background-color: rgb(255, 255, 255);
      border-radius: 64px;
@@ -43,7 +43,7 @@
 
  .container>.card>.barcode-background>img {
 
-     width: 60%;
+     width: 40%;
      margin: 64px;
      z-index: 3;
 
