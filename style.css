@@ -10,7 +10,7 @@
     flex-direction: row;
     justify-content: center;
     min-height: 100vh; 
-    background-color: #dae0f5;
+    background-color: #D6E1F0;
     align-items: center;
     margin: 0; 
   }
@@ -23,6 +23,7 @@
     height: auto; 
     background-color: rgb(255, 255, 255);
     border-radius: 64px;
+    box-shadow: #2C334C;
   }
 
  .card {
