@@ -1,0 +1,132 @@
+ * {
+     margin: 0;
+     box-sizing: border-box;
+
+
+ }
+
+ body {
+
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     height: 50vh;
+     background-color: #dae0f5;
+
+ }
+
+ .container {
+
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 250px;
+     height: 250PX;
+     background-color: rgb(255, 255, 255);
+     transform: translateX(50%);
+     transform: translateY(50%);
+     border-radius: 64px;
+
+
+
+ }
+
+ .card {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+     background-color: rgb(255, 255, 255);
+     border-radius: 8px;
+     height: fit-content;
+
+
+ }
+
+ .container>.card>.barcode-background>img {
+
+     width: 40%;
+     margin: 64px;
+     z-index: 3;
+
+ }
+
+ .barcode-background {
+     background-color: #3684FE;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     border-radius: 8px;
+     height: 90%;
+     margin: 16px;
+     position: relative;
+     z-index: 1;
+     overflow: hidden;
+
+ }
+
+ .content {
+     margin: 16px;
+     align-items: center;
+
+     text-align: justify;
+
+
+
+ }
+
+ .content h4 {
+
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: #2C334C;
+     padding-bottom: 8px;
+     text-align: center;
+
+
+
+
+
+ }
+
+ .content p {
+
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-weight: 500;
+     color: #999999;
+     font-size: 14px;
+     margin-bottom: 16px;
+     text-align: center;
+
+
+ }
+
+ .overlay {
+     position: absolute;
+     background-color: #448cff;
+     z-index: 2;
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+     right: 100px;
+     bottom: 100px;
+
+ }
+
+ .overlay2 {
+
+     position: absolute;
+     background-color: #448cffaf;
+     z-index: 2;
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+     /* transform: translateX(10%);
+    transform: translateY(-60%); */
+     left: 100px;
+     bottom: -100px;
+
+
+
+
+ }
